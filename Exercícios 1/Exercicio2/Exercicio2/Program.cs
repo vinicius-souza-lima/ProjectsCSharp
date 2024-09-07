@@ -6,7 +6,7 @@ namespace Course {
         static void Main(string[] args) {
             double raio = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             double x = Program.Circunferencia(raio);
-            Console.WriteLine(x,"F2",CultureInfo.InvariantCulture);
+            Console.WriteLine("A=" + x.ToString("F4",CultureInfo.InvariantCulture));
         }
 
         static public double Circunferencia(double raio) {
